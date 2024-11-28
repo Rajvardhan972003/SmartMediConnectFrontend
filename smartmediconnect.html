@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartMediControl</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="clinic.css" />
+
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <!-- <a class="navbar-brand" href="#">
+          <img src="./images/favicon2.jpeg" alt="HealthStack Logo" width="50" height="50px" />
+          <img src="./images/logo123.jpg" alt="HealthStack Logo" width="50" height="50px" />
+        </a> -->
+        <!-- <p style="font-size:28px;">SmartMediControl</p> -->
+        <img src="./images/favicon.png" alt="HealthStack Logo" width="50" height="50px" />
+        <p class="brand-text ms-2">SmartMediConnect</p>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="DiseasePrediction.html">Disease Prediction</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+          </ul>
+          <div class="contact-info d-flex align-items-center">
+            <i class="bi bi-telephone me-2"></i> +91 12345 67890
+          </div>
+          <a href="./login.html" class="btn btn-outline-success ms-3"
+            >Login / Signup</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-primary text-white text-center py-5">
+      <div class="container">
+        <h1 class="display-4">Welcome To SmartMediConnect</h1>
+        <p style="font-size: 30px;">Choose well by choosing us.</p>
+      </div>
+    </section>
+    <!-- Image Section -->
+    <section>
+      <div class="container my-5">
+        <img src="images/p2.png" class="img-fluid" alt="HealthStack Image" />
+      </div>
+    </section>
+    <!-- Clinic and Specialities Section -->
+    <div class="container">
+      <h1 class="display-4 text-center mb-4">Clinic and Specialities</h1>
+      <div class="row justify-content-center g-4">
+        <div class="col-md-3 col-sm-6">
+          <div class="speciality-card text-center">
+            <img
+              src="./images/specialities-01.png"
+              class="img-fluid mb-3"
+              alt="Speciality 1"
+            />
+            <h5>Nephrologist</h5>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="speciality-card text-center">
+            <img
+              src="./images/specialities-02.png"
+              class="img-fluid mb-3"
+              alt="Speciality 2"
+            />
+            <h5>Neurology</h5>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="speciality-card text-center">
+            <img
+              src="./images/specialities-03.png"
+              class="img-fluid mb-3"
+              alt="Speciality 3"
+            />
+            <h5>Orthopedics</h5>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="speciality-card text-center">
+            <img
+              src="./images/specialities-04.png"
+              class="img-fluid mb-3"
+              alt="Speciality 4"
+            />
+            <h5>Cardiology</h5>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="speciality-card text-center">
+            <img
+              src="./images/specialities-05.png"
+              class="img-fluid mb-3"
+              alt="Speciality 5"
+            />
+            <h5>Dentist</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    </section>
+
+    <!-- Doctors Section -->
+
+    <section class="py-5">
+      <div class="container">
+        <h2 class="mb-4 text-center">Book Our Doctor</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card  h-100">
+              <img
+                src="./images/doctor-12.jpg"
+                class="card-img-top"
+                alt="Dr. Amit Sharma"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dr. Amit Sharma</h5>
+                <p class="card-text">Cardiology</p>
+                <p>Square Hospital</p>
+                <p>12 pm - 8 pm</p>
+                <p>Consultation fee: ₹1500</p>
+                <a href="#" class="btn btn-primary">Book Appointment</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img
+              src="./images/doctor-thumb-01.jpg"
+              class="card-img-top"
+              alt="Dr. Aysha Sinde"
+            />
+           
+            <div class="card-body">
+              <h5 class="card-title">Dr. Aysha Sinde</h5>
+              <p class="card-text">Cancer Specialist</p>
+              <p>Square Hospital</p>
+              <p>12 PM - 6 PM</p>
+              <p>Consultation fee: ₹1200</p>
+              <a href="#" class="btn btn-primary">Book Appointment</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img
+              src="./images/doctor-thumb-02.jpg"
+              class="card-img-top"
+              alt="Dr. Amey Oberoy"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dr. Amey Oberoy</h5>
+              <p class="card-text">ENT Specialist</p>
+              <p>United Hospital</p>
+              <p>6 AM - 8 AM</p>
+              <p>Consultation fee: ₹2000</p>
+              <a href="#" class="btn btn-primary">Book Appointment</a>
+            </div>
+          </div>
+        </div>
+        <!-- Additional Doctors can be added here -->
+      </div>
+    </div>
+  </section>
+
+ <!-- Hospitals Section -->
+
+ <section class="hospitals-section py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Available Hospitals</h2>
+    <p class="text-center mb-5" style="font-size:18px;">
+      Here you can access multiple hospitals. You can book your appointment
+      with your doctor & collect all hospital information from here.
+    </p>
+    <div class="row g-4">
+      <div class="col-md-2 col-sm-4 col-6">
+        <div class="hospital text-center">
+          <img
+            src="./images/1519800123757.jpg"
+            class="img-fluid mb-2"
+            alt="Cardiac Hospital"
+          />
+          <p>Cardiac</p>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-4 col-6">
+        <div class="hospital text-center">
+          <img
+            src="./images/square-hospital.jpg"
+            class="img-fluid mb-2"
+            alt="Square Hospital"
+          />
+          <p>Square Hospital</p>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-4 col-6">
+        <div class="hospital text-center">
+          <img
+            src="./images/labaid.jpg"
+            class="img-fluid mb-2"
+            alt="Labaid"
+          />
+          <p>Labaid</p>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-4 col-6">
+        <div class="hospital text-center">
+          <img
+            src="./images/united_hospital.jpg"
+            class="img-fluid mb-2"
+            alt="United Hospital"
+          />
+          <p>United Hospital</p>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-4 col-6">
+        <div class="hospital text-center">
+          <img
+            src="./images/Anwer_Khan_Modern_Hospital_Location_Address_Phone_Number.JPG"
+            class="img-fluid mb-2"
+            alt="Anwar Khan Hospital"
+          />
+          <p>Anwar Khan</p>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-4 col-6">
+        <div class="hospital text-center">
+          <img
+            src="./images/hospi.jpg"
+            class="img-fluid mb-2"
+            alt="New Life Hospital"
+          />
+          <p>New Life Hospital</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Us Section -->
+ <section class="contact-section py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <p class="text-center mb-5">
+      Reach out to us for any inquiries or support:
+    </p>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"
+              placeholder="Your message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Logo Section -->
+<div class="logo">
+  <div class="container d-flex align-items-center justify-content-center">
+    <div class="img">
+      <img src="images/company-logo1.webp" alt="Company-Logo" />
+    </div>
+    <div class="img">
+      <img src="images/company-logo2.webp" alt="Company-Logo" />
+    </div>
+    <div class="img">
+      <img src="images/company-logo3.webp" alt="Company-Logo" />
+    </div>
+    <div class="img">
+      <img src="images/company-logo4.webp" alt="Company-Logo" />
+    </div>
+    <div class="img">
+      <img src="images/company-logo5.webp" alt="Company-Logo" />
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<!-- <footer class="bg-dark text-white py-4">
+  <div class="container text-center">
+    <p>&copy; 2024 HealthStack. All rights reserved.</p>
+  </div>
+</footer> -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-2 mt-5">
+        <div class="foot">
+          <h4>Top Products</h4>
+          <a href="#">Managed Website</a> <br />
+          <a href="#">Manage Reputation</a> <br />
+          <a href="#">Power Tools</a> <br />
+          <a href="#">Marketing Service</a>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-lg-2 mt-5">
+        <div class="foot">
+          <h4>Quick Links</h4>
+          <a href="#">Jobs</a> <br />
+          <a href="#">Brand Assets</a> <br />
+          <a href="#">Investor Relations</a> <br />
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-lg-2 mt-5">
+        <div class="foot">
+          <h4>Features</h4>
+          <a href="#">Jobs</a> <br />
+          <a href="#">Brand Assets</a> <br />
+          <a href="#">Investor Relations</a> <br />
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-lg-2 mt-5">
+        <div class="foot">
+          <h4>Resources</h4>
+          <a href="#">Guides</a> <br />
+          <a href="#">Research</a> <br />
+          <a href="#">Experts</a> <br />
+          <a href="#">Agencies</a>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-lg-4 mt-5">
+        <div class="foot">
+          <h4>Newsletter</h4>
+          <a href="#">You can trust us. we only send promo offers,</a>
+          <div class="inpu">
+            <input type="text" placeholder="Your Email Address" />
+            <a href="mailto:rajvardhan.ras09@gmail.com"
+              ><div class="but"><i class="ri-arrow-right-line"></i></div
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer">
+  <!-- Footer Top -->
+  <div class="footer-top">
+    <div class="container-fluid">
+      <div class="row">
+        
+        <div class="col-lg-6 col-md-6">
+          <!-- Footer Widget -->
+          <div class="footer-widget footer-about">
+            <div class="footer-logo">
+              <img src="./images/favicon.png" alt="HealthStack Logo" width="50" height="50px" /><p class="brand-text ms-2">SmartMediConnect</p>
+            </div>
+            <div class="footer-about-content">
+              <p>
+                SmartMediConnect is an online based platform for multiple hospitals. It Provides immediate medical assistance to patients who require emergency treatment. Its Ability to track, monitor, and share a patient's health records between all hospitals. Patients can also see information regarding multiple hospitals and doctors and make appointments online.
+              </p>
+              <br>
+            
+            </div>
+          </div>
+          <!-- /Footer Widget -->
+        </div>
+
+
+        <div class="col-lg-3 col-md-6">
+          <!-- Footer Widget -->
+          
+          <!-- /Footer Widget -->
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <!-- Footer Widget -->
+          <div class="footer-widget footer-contact">
+            <h2 class="footer-title">Contact Us</h2>
+            <div class="footer-contact-info">
+              <div class="footer-address">
+                <span><i class="fas fa-map-marker-alt"></i></span>
+                <p>
+                  Nashik,<br />
+                  Pune, Jalgaon
+                </p>
+              </div>
+              <p>
+                <i class="fas fa-phone-alt"></i>
+                +880 1234 567890
+              </p>
+              <p class="mb-0">
+                <i class="fas fa-envelope"></i>
+                SmartMediConnect@gmail.com
+              </p>
+            </div>
+          </div>
+          <!-- /Footer Widget -->
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</footer>
+<div class="last-footer bg-dark text-white py-4">
+  <div class="container d-flex flex-wrap justify-content-between align-items-center">
+    <!-- Copyright Text -->
+    <div class="text-center flex-grow-1">
+      <p class="mb-0">&copy; 2024 SmartMediControl. All rights reserved.</p>
+    </div>
+
+    <!-- Social Media Icons -->
+    <div class="d-flex justify-content-center align-items-center mt-3 mt-md-0">
+      <a href="https://www.facebook.com" class="me-3" aria-label="Facebook">
+        <icon class="ri-facebook-fill fs-4"></icon>
+      </a>
+      <a href="https://x.com/?lang=en" class="me-3" aria-label="Twitter">
+        <icon class="ri-twitter-fill fs-4"></icon>
+      </a>
+      <a href="https://www.google.com/chrome/" class="me-3" aria-label="Website">
+        <icon class="ri-global-line fs-4"></icon>
+      </a>
+      <a href="https://www.linkedin.com" aria-label="LinkedIn">
+        <icon class="ri-linkedin-fill fs-4"></icon>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- <script src="script.js"></script> -->
+
+<script src="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+0oFGjl36No5jAd1k6Jo6kZKk1V1"
+  crossorigin="anonymous"
+></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HealthStack Chat</title>
+    <link rel="stylesheet" href="chat.css" />
+  </head>
+  <body>
+    <header>
+       
+        <div style="display: flex; align-items: center;">
+            <img src="images/favicon.png" height="40" alt="Logo">
+            <b style="margin-left: 10px;">SmartMediConnect</b>
+          </div>
+      <nav>
+        <a href="smartmediconnect.html">Home</a>
+        <a href="Dashboard.html">Dashboard</a>
+        <div class="dropdown">
+          <button class="dropbtn">Hospital</button>
+          <div class="dropdown-content">
+            <a href="#">Overview</a>
+            <a href="#">Services</a>
+          </div>
+        </div>
+        <a href="chat.html" style="color: blue">Chat with Doctor</a>
+        <a href="#">Medical Shop</a>
+      </nav>
+      <div class="contact-info">
+        <span>Contact: +8874526391</span>
+          <img src="images/usericon.png" alt="User" height="30" />
+          <div>
+            <ul
+            class="dropdown-menu dropdown-menu-end horizontal-menu"
+            aria-labelledby="userDropdown"
+          >
+            <li>
+              <a
+                class="dropdown-item"
+                href="Dashboard.html"
+                style="color:#053469; border-radius:10px;"
+              >
+                Profile
+              </a>
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="login.html"
+                style="color:#053469; border-radius:10px;"
+              >
+                Logout
+              </a>
+            </li>
+          </ul>
+          
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="chat-container">
+        <!-- Sidebar -->
+        <div class="chat-sidebar">
+          <input type="text" class="search" placeholder="Search" />
+          <div class="chat-list">
+            <!-- Doctor List -->
+            <div class="doctor">
+              <img src="images/patient1.jpg" alt="Doctor 1" />
+              <div class="doctor-info">
+                <p class="doctor-name">Ethan Carter</p>
+                <p class="doctor-status online">Online</p>
+              </div>
+            </div>
+            <div class="doctor">
+              <img src="images/patient2.jpg" alt="Doctor 2" />
+              <div class="doctor-info">
+                <p class="doctor-name">Liam Henderson</p>
+                <p class="doctor-status offline">Offline</p>
+              </div>
+            </div>
+            <div class="doctor">
+              <img src="images/patient3.jpg" alt="Doctor 2" />
+              <div class="doctor-info">
+                <p class="doctor-name">Nathan Blake</p>
+                <p class="doctor-status offline" style="color: green">Online</p>
+              </div>
+            </div>
+            <div class="doctor">
+              <img src="images/patient4.jpg" alt="Doctor 2" />
+              <div class="doctor-info">
+                <p class="doctor-name">Aaron Mitchell</p>
+                <p class="doctor-status offline">Offline</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Chat Window -->
+        <div class="chat-window">
+          <div class="chat-header">
+            <p>Start Chat now</p>
+          </div>
+          <div class="chat-body">
+            <p>Please select a person to chat with.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

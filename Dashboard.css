@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #ffffff;
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.nav-tabs .nav-link.active {
+  font-weight: bold;
+  color: #007bff !important;
+  border-bottom: 3px solid #007bff;
+}
+
+/* Sidebar Styles */
+.list-group-item {
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.list-group-item.menu-item:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.list-group-item.menu-item.active {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.list-group-item.menu-item i {
+  margin-right: 10px;
+}
+
+/* Content Styles */
+.tab-content {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #007bff;
+}
+.list-group-item a:hover {
+  text-decoration: none;
+  color: #007bff; /* Optional: Change link color on hover */
+}
+
+.list-group-item.menu-item a {
+  display: flex;
+  align-items: center;
+}
+/* General page background color */
+body {
+  background-color: #13556f; /* Sky blue color */
+}
+
+/* Keep header and footer separate with distinct colors */
+header.navbar {
+  background-color: #f8f9fa; /* Light gray for the navbar to differentiate */
+}
+
+.last-footer {
+  background-color: #343a40; /* Dark color for footer */
+}
+
+/* Keep the container content with a white background for readability */
+.container {
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
+}

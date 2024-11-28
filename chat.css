@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4fa;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4a90e2;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown .dropbtn {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.contact-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.profile-icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* Main layout */
+main {
+  display: flex;
+  height: calc(100vh - 50px);
+}
+
+.chat-container {
+  display: flex;
+  flex: 1;
+  background-color: #e8f0fe;
+}
+
+.chat-sidebar {
+  width: 25%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.search {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Doctor List Styles */
+.doctor {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.doctor:hover {
+  background-color: #e8f0fe;
+}
+
+.doctor img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.doctor-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.doctor-name {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.doctor-status {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+
+.chat-window {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8f0fe;
+  text-align: center;
+}
+
+.chat-header p {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+}
+
+.chat-body p {
+  font-size: 1rem;
+  color: #666;
+}
+/* Dropdown menu container */
+.horizontal-menu {
+  display: flex;
+  justify-content: space-between; /* Adjust spacing between items */
+  gap: 10px; /* Optional: Adds space between items */
+  padding: 10px; /* Optional: Adds padding around items */
+  list-style: none; /* Remove bullet points */
+}
+
+/* Menu items */
+.dropdown-item {
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: center;
+  background-color: #f0f0f0;
+  text-decoration: none;
+  color: #053469;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #d9e6f2;
+}

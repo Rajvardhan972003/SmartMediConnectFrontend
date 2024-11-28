@@ -1,0 +1,227 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaf2fc; /* Light blue background */
+  color: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: url("./images/Admin123.webp") no-repeat center center fixed;
+  background-size: cover; /* Ensures the image covers the entire background */
+  color: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Container */
+.container {
+  width: 800px;
+  height: 500px;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Left Panel */
+.left-panel {
+  width: 40%;
+  background: linear-gradient(to bottom, #0066cc, #00aaff); /* Blue gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.logo-section {
+  text-align: center;
+}
+
+.logo-section h1 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.logo {
+  max-width: 80px;
+}
+
+/* Right Panel */
+.right-panel {
+  width: 60%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.subtext {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* Form */
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group input[type="checkbox"] {
+  margin-top: 0;
+  margin-right: 5px; /* Adjust spacing as needed */
+  vertical-align: middle;
+}
+
+.form-group label {
+  margin: 0;
+  font-size: 14px; /* Optional: match font size */
+  vertical-align: middle;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.show-password {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+button.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #00c2ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.btn:hover {
+  background-color: #009ecf;
+}
+/* Align "Show Password" checkbox and label in one line */
+.show-password {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adds spacing between checkbox and label */
+}
+
+/* Links */
+.links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.forgot-password {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  margin: 15px 0;
+  font-size: 12px;
+  color: #666;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  background-color: #ccc;
+  top: 50%;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.homepage-link {
+  font-size: 14px;
+  text-decoration: none;
+  color: #007bff;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.homepage-link:hover {
+  text-decoration: underline;
+}
+
+.register-text {
+  font-size: 14px;
+}
+
+.register-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-text a:hover {
+  text-decoration: underline;
+}
+/* input[type="checkbox"] {
+  vertical-align: middle;
+  margin-top: 0;
+}
+label {
+  margin: 0;
+  font-size: 14px; 
+} */
+.form-group {
+  display: inline-block; /* Use inline-block for legacy support */
+}
+input[type="checkbox"],
+label {
+  display: inline-block;
+  vertical-align: middle;
+}
